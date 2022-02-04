@@ -16,7 +16,7 @@ WPILib should be [installed](https://docs.wpilib.org/en/stable/docs/zero-to-robo
 
 ## Release Notes
 
-### 2022.02.04 (04/02/2022)
+### 0.0.1
 
 - Initial release of FRC Snippets
 

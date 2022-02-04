@@ -2,7 +2,7 @@
     "name": "frc-snippets",
     "displayName": "FRC Snippets",
     "description": "Visual Studio Code snippets for the FRC Java library",
-    "version": "2022.02.04",
+    "version": "0.0.1",
     "engines": {
         "vscode": "^1.50.0"
     },
