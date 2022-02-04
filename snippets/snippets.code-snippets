@@ -1,0 +1,82 @@
+{
+    "FRC Commands": {
+        "prefix": "frccmd",
+        "body": [
+			// Import
+			"import edu.wpi.first.wpilibj2.command.CommandBase;\n",
+
+			// Class name
+			"public class $TM_FILENAME_BASE extends CommandBase {\n",
+
+            // Subsystem
+            "\tprivate final Subsystem$1 m_subsystem;\n",
+
+			// Constructor
+			"\tpublic $TM_FILENAME_BASE(Subsystem$1 subsystem) {",
+            "\t\t// Use addRequirements() here to declare subsystem dependencies.",
+            "\t\taddRequirements(subsystem);",
+			"\t\t$2",
+			"\t}\n",
+
+			// Command methods
+
+            "\t// Called when the command is initially scheduled.",
+			"\t@Override",
+            "\tpublic void initialize() {",
+			"\t\t$3",
+			"\t}\n",
+
+            "\t// Called every time the scheduler runs while the command is scheduled.",
+			"\t@Override",
+            "\tpublic void execute() {",
+			"\t\t$4",
+			"\t}\n",
+
+            "\t// Called once the command ends or is interrupted.",
+			"\t@Override",
+            "\tpublic void end(boolean interrupted) {",
+			"\t\t$5",
+			"\t}\n",
+
+            "\t// Returns true when the command should end.",
+			"\t@Override",
+            "\tpublic boolean isFinished() {",
+			"\t\t$6",
+            "\t\treturn false;",
+			"\t}\n",
+
+			"}"
+		]
+    },
+    "FRC Subsystems": {
+        "prefix": "frcsys",
+        "body": [
+			// Import
+			"import edu.wpi.first.wpilibj2.command.SubsystemBase;\n",
+
+			// Class name
+			"public class $TM_FILENAME_BASE extends SubsystemBase {\n",
+
+			// Constructor
+			"\tpublic $TM_FILENAME_BASE() {",
+			"\t\t$1",
+			"\t}\n",
+
+			// Subsystem methods
+
+			"\t@Override",
+            "\tpublic void periodic() {",
+            "\t\t// This method will be called once per scheduler run",
+			"\t\t$2",
+			"\t}\n",
+
+			"\t@Override",
+            "\tpublic void simulationPeriodic() {",
+            "\t\t// This method will be called once per scheduler run during simulation",
+			"\t\t$3",
+			"\t}\n",
+
+			"}"
+        ]
+    }
+}
