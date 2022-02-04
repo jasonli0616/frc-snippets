@@ -2,6 +2,9 @@
 
 FRC Snippets is a VSCode extension made for the First Robotics Java library.
 
+![Commands snippet demo](https://raw.githubusercontent.com/jasonli0616/frc-snippets/main/images/FRC%20Snippets%20-%20Command%20demo.png)
+![Subsystem snippet demo](https://raw.githubusercontent.com/jasonli0616/frc-snippets/main/images/FRC%20Snippets%20-%20Subsystem%20demo.png)
+
 ## Features
 
 - Insert Command boilerplate code
