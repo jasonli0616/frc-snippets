@@ -2,11 +2,31 @@
     "name": "frc-snippets",
     "displayName": "FRC Snippets",
     "description": "Visual Studio Code snippets for the FRC Java library",
+    "publisher": "jasonli0616",
+    "author": {
+        "name": "Jason Li",
+        "url": "https://jasonli0616.dev"
+    },
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.50.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jasonli0616/frc-snippets.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jasonli0616/frc-snippets/issues"
+    },
+    "icon": "images/icon.png",
     "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "FRC",
+        "First Robotics",
+        "Robotics",
+        "WPILib",
         "Snippets"
     ],
     "contributes": {
