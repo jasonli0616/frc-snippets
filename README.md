@@ -146,6 +146,7 @@ WPILib should be [installed](https://docs.wpilib.org/en/stable/docs/zero-to-robo
 
 - Add controller snippets
 - Reformat README.md
+- Add license
 
 ### 0.0.1
 
