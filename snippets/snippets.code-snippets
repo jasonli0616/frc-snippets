@@ -1,5 +1,5 @@
 {
-    "FRC Commands": {
+    "FRC insert command boilerplate code": {
         "prefix": "frccmd",
         "body": [
 			// Import
@@ -48,7 +48,7 @@
 			"}"
 		]
     },
-    "FRC Subsystems": {
+    "FRC insert Subsystem boilerplate code": {
         "prefix": "frcsys",
         "body": [
 			// Import
@@ -77,6 +77,32 @@
 			"\t}\n",
 
 			"}"
+        ]
+    },
+    "FRC declare Xbox Controller": {
+        "prefix": "frcdx",
+        "body": [
+            "// Controller",
+            "private final XboxController sys_controller; // = new XboxController(0);",
+            "private final JoystickButton btn_main_A, btn_main_B, btn_main_X, btn_main_Y, btn_main_LBumper, btn_main_RBumper,",
+            "\tbtn_main_LAnalog, btn_main_RAnalog, btn_main_Back, btn_main_Start;"
+        ]
+    },
+    "FRC instantiate Xbox Controller": {
+        "prefix": "frcix",
+        "body": [
+            "// Controller",
+            "sys_controller = new XboxController(0);",
+            "btn_main_A = new JoystickButton(sys_controller, XboxController.Button.kA.value);",
+            "btn_main_B = new JoystickButton(sys_controller, XboxController.Button.kB.value);",
+            "btn_main_X = new JoystickButton(sys_controller, XboxController.Button.kX.value);",
+            "btn_main_Y = new JoystickButton(sys_controller, XboxController.Button.kY.value);",
+            "btn_main_LBumper = new JoystickButton(sys_controller, XboxController.Button.kLeftBumper.value);",
+            "btn_main_RBumper = new JoystickButton(sys_controller, XboxController.Button.kRightBumper.value);",
+            "btn_main_LAnalog = new JoystickButton(sys_controller, XboxController.Button.kLeftStick.value);",
+            "btn_main_RAnalog = new JoystickButton(sys_controller, XboxController.Button.kRightStick.value);",
+            "btn_main_Back = new JoystickButton(sys_controller, XboxController.Button.kBack.value);",
+            "btn_main_Start = new JoystickButton(sys_controller, XboxController.Button.kStart.value);"
         ]
     }
 }
