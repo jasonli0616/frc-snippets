@@ -92,55 +92,17 @@ public class ClassName extends SubsystemBase {
 }
 ```
 
-### Declare Xbox Controller
-
-Prefix:
-
-```
-frcdx
-```
-
-Code snippet:
-
-```java
-// Controller
-private final XboxController sys_controller; // = new XboxController(0);
-private final JoystickButton btn_main_A, btn_main_B, btn_main_X, btn_main_Y, btn_main_LBumper, btn_main_RBumper,
-    btn_main_LAnalog, btn_main_RAnalog, btn_main_Back, btn_main_Start;
-```
-
-### Instantiate Xbox Controller
-
-Prefix:
-
-```
-frcix
-```
-
-Code snippet:
-
-```java
-// Controller
-sys_controller = new XboxController(0);
-btn_main_A = new JoystickButton(sys_controller, XboxController.Button.kA.value);
-btn_main_B = new JoystickButton(sys_controller, XboxController.Button.kB.value);
-btn_main_X = new JoystickButton(sys_controller, XboxController.Button.kX.value);
-btn_main_Y = new JoystickButton(sys_controller, XboxController.Button.kY.value);
-btn_main_LBumper = new JoystickButton(sys_controller, XboxController.Button.kLeftBumper.value);
-btn_main_RBumper = new JoystickButton(sys_controller, XboxController.Button.kRightBumper.value);
-btn_main_LAnalog = new JoystickButton(sys_controller, XboxController.Button.kLeftStick.value);
-btn_main_RAnalog = new JoystickButton(sys_controller, XboxController.Button.kRightStick.value);
-btn_main_Back = new JoystickButton(sys_controller, XboxController.Button.kBack.value);
-btn_main_Start = new JoystickButton(sys_controller, XboxController.Button.kStart.value);
-```
-
 
 
 ## Requirements
 
-WPILib should be [installed](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html#wpilib-installation-guide), and you should be using their version of VSCode.
+[WPILib](https://github.com/wpilibsuite/allwpilib/releases) should be installed, and you should be using their version of VSCode.
 
 ## Release Notes
+
+### 0.0.3
+
+- Remove controller snippets (due to 2023 change in WPILib)
 
 ### 0.0.2
 
