@@ -13,9 +13,9 @@
 
 			// Constructor
 			"\tpublic $TM_FILENAME_BASE(Subsystem$1 subsystem) {",
+			"\t\t$2\n",
             "\t\t// Use addRequirements() here to declare subsystem dependencies.",
             "\t\taddRequirements(subsystem);",
-			"\t\t$2",
 			"\t}\n",
 
 			// Command methods
@@ -41,8 +41,7 @@
             "\t// Returns true when the command should end.",
 			"\t@Override",
             "\tpublic boolean isFinished() {",
-			"\t\t$6",
-            "\t\treturn false;",
+            "\t\treturn false$6;",
 			"\t}\n",
 
 			"}"
