@@ -2,10 +2,20 @@
     "FRC insert command boilerplate code": {
         "prefix": "frccmd",
         "body": [
+			//Message
+			"// 5409: The Chargers",
+			"// http://github.com/FRC5409\n",
+
+			// Time
+			"// Command Created: $CURRENT_DAY_NAME, $CURRENT_MONTH_NAME, $CURRENT_DATE, $CURRENT_YEAR, at $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND\n",
+
 			// Import
 			"import edu.wpi.first.wpilibj2.command.CommandBase;\n",
 
 			// Class name
+			"/**",
+			" * @author ",
+			" */"
 			"public class $TM_FILENAME_BASE extends CommandBase {\n",
 
             // Subsystem
@@ -13,7 +23,7 @@
 
 			// Constructor
 			"\tpublic $TM_FILENAME_BASE(Subsystem$1 subsystem) {",
-			"\t\t$2\n",
+			"\t\t$3\n",
             "\t\t// Use addRequirements() here to declare subsystem dependencies.",
             "\t\taddRequirements(subsystem);",
 			"\t}\n",
@@ -23,25 +33,25 @@
             "\t// Called when the command is initially scheduled.",
 			"\t@Override",
             "\tpublic void initialize() {",
-			"\t\t$3",
+			"\t\t$4",
 			"\t}\n",
 
             "\t// Called every time the scheduler runs while the command is scheduled.",
 			"\t@Override",
             "\tpublic void execute() {",
-			"\t\t$4",
+			"\t\t$5",
 			"\t}\n",
 
             "\t// Called once the command ends or is interrupted.",
 			"\t@Override",
             "\tpublic void end(boolean interrupted) {",
-			"\t\t$5",
+			"\t\t$6",
 			"\t}\n",
 
             "\t// Returns true when the command should end.",
 			"\t@Override",
             "\tpublic boolean isFinished() {",
-            "\t\treturn false$6;",
+            "\t\treturn false$7;",
 			"\t}\n",
 
 			"}"
@@ -50,6 +60,13 @@
     "FRC insert Subsystem boilerplate code": {
         "prefix": "frcsys",
         "body": [
+			//Message
+			"// 5409: The Chargers",
+			"// http://github.com/FRC5409\n",
+
+			// Time
+			"// Command Created: $CURRENT_DAY_NAME, $CURRENT_MONTH_NAME, $CURRENT_DATE, $CURRENT_YEAR, at $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND\n",
+			
 			// Import
 			"import edu.wpi.first.wpilibj2.command.SubsystemBase;\n",
 
