@@ -100,6 +100,11 @@ public class ClassName extends SubsystemBase {
 
 ## Release Notes
 
+### 2024.0.4
+
+- Use year-based version numbers
+- Update for WPILib 2024 changes
+
 ### 0.0.3
 
 - Remove controller snippets (due to 2023 change in WPILib)
