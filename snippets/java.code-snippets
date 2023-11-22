@@ -10,20 +10,20 @@
 			// "// Command Created: $CURRENT_DAY_NAME, $CURRENT_MONTH_NAME, $CURRENT_DATE, $CURRENT_YEAR, at $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND\n",
 
 			// Import
-			"import edu.wpi.first.wpilibj2.command.CommandBase;\n",
+			"import edu.wpi.first.wpilibj2.command.Command;\n",
 
 			// Class name
 			"/**",
 			" * @author ",
 			" */"
-			"public class $TM_FILENAME_BASE extends CommandBase {\n",
+			"public class $TM_FILENAME_BASE extends Command {\n",
 
             // Subsystem
             "\tprivate final Subsystem$1 m_subsystem;\n",
 
 			// Constructor
-			"\tpublic $TM_FILENAME_BASE(Subsystem$1 subsystem) {",
-			"\t\t$3\n",
+			"\tpublic $TM_FILENAME_BASE() {",
+			"\t\tm_subsystem = Subsystem$1.getInstance();\n",
             "\t\t// Use addRequirements() here to declare subsystem dependencies.",
             "\t\taddRequirements(subsystem);",
 			"\t}\n",
